@@ -1,0 +1,155 @@
+.body {
+  background-color: whitesmoke;
+}
+
+#foot {
+  text-align: center;
+  color: blueviolet;
+}
+
+a:link {
+  font-style: italic;
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: aqua;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(99, 99, 99, 0.504);
+  height: 50px;
+}
+
+.navitem {
+  margin: 0 30px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+img {
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  border: 3px solid rgb(187, 164, 132);
+}
+
+.skillssection {
+  background-color: bisque;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+#skills {
+  background-color: rgb(164, 163, 161);
+  height: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.skillslist {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.skillslist li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.educationsection {
+  background-color: bisque;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+#education {
+  background-color: rgb(164, 163, 161);
+  height: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.educationlist {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.educationlist li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.educationlist a {
+  font-size: 20px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.projectsection {
+  background-color: bisque;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+#projects {
+  background-color: rgb(164, 163, 161);
+  height: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.projectlist {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.projectlist li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.projectlist a {
+  font-size: 20px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.aboutmesection {
+  background-color: bisque;
+  height: 120px;
+  margin-bottom: 30px;
+}
+
+#aboutme {
+  background-color: rgb(164, 163, 161);
+  height: 30px;
+  text-align: center;
+  color: darkslategrey;
+}
+
+.profilesection {
+  background-color: bisque;
+}
+
+.footer {
+  font-weight: 800;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
