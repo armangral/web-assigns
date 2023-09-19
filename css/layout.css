@@ -1,0 +1,175 @@
+body {
+  background-color: whitesmoke;
+  font-family: "Poppins", sans-serif;
+}
+header {
+  border-bottom: 2px solid gray;
+  height: 60px;
+  padding-top: 30px;
+}
+
+a:link {
+  font-weight: bold;
+  color: darkslategrey;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: aqua;
+}
+
+.navbar {
+  display: inline-block;
+  height: 50px;
+}
+
+.navitem {
+  margin: 0 60px;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  /* background-color: dimgrey; */
+  /* height: 600px; */
+}
+
+main {
+  margin-left: 30%;
+  width: 70%;
+  /* background-color: aqua; */
+  /* height: 1000px; */
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+  padding: 40px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+footer {
+  clear: both;
+  margin-top: 20px;
+  border-top: 2px solid gray;
+  /* height: 90px; */
+}
+
+.imageholder {
+  height: 500px;
+}
+
+#profimg {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  /* border: 3px solid rgb(187, 164, 132); */
+}
+
+button {
+  width: 90%;
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.upperdiv {
+  /* background-color: cyan; */
+  padding: 60px;
+}
+
+.profilediv {
+  text-align: left;
+  /* border: 1px solid black; */
+  padding: 10px;
+}
+
+.detailsdiv {
+  color: grey;
+  margin-top: 10px;
+}
+
+.detailsdiv a {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: grey;
+}
+
+.detailsdiv i.fab,
+.detailsdiv i.fas {
+  margin-right: 10px;
+  color: grey;
+}
+
+hr {
+  height: 1px;
+  border: 0;
+  background-color: rgba(87, 85, 85, 0.246);
+}
+
+.socialsdiv {
+  color: grey;
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.socialsdiv a {
+  margin-right: 20px;
+  color: grey;
+}
+
+.icon-box {
+  display: inline-block;
+  padding: 10px;
+  margin: 5px;
+}
+
+.icon-box img {
+  max-width: 100%;
+  height: auto;
+}
+
+.educationlist {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.educationlist li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.educationlist a {
+  font-style: italic;
+  text-decoration: none;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  background-color: green;
+}
+
+.projectlist {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.projectlist li {
+  display: inline;
+  margin: 0 30px;
+}
+
+.projectlist a {
+  font-style: italic;
+  font-size: 16px;
+  text-decoration: none;
+}
